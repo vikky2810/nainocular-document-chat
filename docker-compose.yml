@@ -1,0 +1,13 @@
+services:
+  mongodb:
+    # Local MongoDB with Atlas Search, so $vectorSearch works without a cloud account
+    image: mongodb/mongodb-atlas-local:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb-data:/data/db
+      - mongodb-config:/data/configdb
+
+volumes:
+  mongodb-data:
+  mongodb-config:

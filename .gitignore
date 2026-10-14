@@ -1,0 +1,31 @@
+# Assignment brief
+Nainocular_Hiring_Technical.pdf
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Uploaded documents
+uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.swp
+
+track.md
