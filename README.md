@@ -10,7 +10,7 @@ Built with React + TypeScript, Node.js + Express, MongoDB with vector search, an
 
 ## Demo video
 
-<video src="https://github.com/vikky2810/nainocular-document-chat/raw/master/docs/demo.mp4" controls muted width="100%"></video>
+https://github.com/user-attachments/assets/6f6c4412-27e6-47c9-90df-9980a0df5703
 
 A 2 min 20 s walkthrough. It shows how to start MongoDB, the server and the client, then uploads a PDF, asks questions, opens a cited page, triggers the fallback reply, reloads to show the saved chat history, and switches the theme.
 
