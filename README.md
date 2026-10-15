@@ -8,10 +8,17 @@ Built with React + TypeScript, Node.js + Express, MongoDB with vector search, an
 
 ![Chat answering from an uploaded PDF, with the cited page open in the viewer](docs/screenshots/answer-with-source.png)
 
+## Demo video
+
+[![Demo video: how to run the project, then a live demo](docs/screenshots/demo-video.jpg)](docs/demo.mp4)
+
+A 2 min 20 s walkthrough ([docs/demo.mp4](docs/demo.mp4)). It shows how to start MongoDB, the server and the client, then uploads a PDF, asks questions, opens a cited page, triggers the fallback reply, reloads to show the saved chat history, and switches the theme.
+
 ---
 
 ## Contents
 
+- [Demo video](#demo-video)
 - [Features](#features)
 - [Tech stack](#tech-stack)
 - [Architecture](#architecture)
